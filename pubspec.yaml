@@ -1,0 +1,46 @@
+name: flutter_movies_db_project
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: 2.2.17
+  dio: 5.0.0
+  provider: 6.0.5
+  dartz: 0.10.1
+  carousel_slider: 4.2.1
+  infinite_scroll_pagination: 3.2.0
+  get_it: 7.2.0
+  webview_flutter: 3.0.4
+  youtube_player_flutter: 8.1.2
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/images/
+  uses-material-design: true
+
+flutter_native_splash: 
+  color: '#ffffff'
+  image: assets/images/logo.png
+  branding: assets/images/logo.png
+  color_dark: '#121212'
+  image_dark: assets/images/logo.png
+  branding_dark: assets/images/logo.png
+  android_12: 
+    image: assets/images/logo.png
+    icon_background_color: '#ffffff'
+    image_dark: assets/images/logo.png
+    icon_background_color_dark: '#121212'
+  android: true
+  web: false
+
